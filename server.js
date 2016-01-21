@@ -4,7 +4,7 @@ const app = express();
 
 
 const hostname = '127.0.0.1';
-const port = 3001;
+const port = process.env.PORT || 3001;
 
 app.get('/', function(req, res){
 	res.sendFile(path.join(__dirname + '/index.html'));
