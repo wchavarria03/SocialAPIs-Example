@@ -4,6 +4,13 @@
   <title>Facebook Login JavaScript Example</title>
   <meta charset="UTF-8">
   <link rel="stylesheet" type="text/css" href="main.css">
+
+  <meta property="og:url"                content="https://socialapis-example.herokuapp.com/" />
+  <meta property="og:type"               content="article" />
+  <meta property="og:title"              content="Social APIs Example" />
+  <meta property="og:description"        content="Social APIs(Facebook, Google+, Twitter) login and share examples" />
+  <meta property="og:image"              content="https://socialapis-example.herokuapp.com/socialNetwork.png" />
+
 </head>
 <body>
 
@@ -21,7 +28,7 @@
       <header> <h3> Provided Login</h3></header>
       <article>
         <div scope="email" class="fb-login-button" data-max-rows="2" data-size="large" data-show-faces="false" data-auto-logout-link="true" onlogin="checkLoginState();"></div>
-        <div class="fb-share-button" data-href="https://developers.facebook.com/docs/plugins/" data-layout="button_count"></div>
+        <div class="fb-share-button" data-size="large" data-href="https://socialapis-example.herokuapp.com/" data-layout="button"></div>
       </article>
       <article>
         
