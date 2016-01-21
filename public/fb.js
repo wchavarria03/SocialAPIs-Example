@@ -40,7 +40,7 @@
 
     FB.ui({
       method: 'share',
-      href = 'https://developers.facebook.com/docs/',
+      href : 'https://developers.facebook.com/docs/',
     }, function(response){
       // Debug response (optional)
         if (response && !response.error_message) {
