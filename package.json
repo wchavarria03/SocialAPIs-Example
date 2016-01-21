@@ -4,5 +4,9 @@
   "description": "",
   "repository": "",
   "dependencies": {
+    "express": "^4.13.3",
+    "fs": "0.0.2",
+    "http": "0.0.0",
+    "path": "^0.12.7"
   }
 }
