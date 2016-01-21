@@ -38,19 +38,6 @@
       version    : 'v2.5' // use version 2.2
     });
 
-    FB.ui({
-      method: 'share',
-      href : 'https://developers.facebook.com/docs/',
-    }, function(response){
-      // Debug response (optional)
-        if (response && !response.error_message) {
-          alert('Posting completed.');
-        } else {
-          alert('Error while posting.');
-        }
-      console.log(response);
-    });
-
     // Now that we've initialized the JavaScript SDK, we call 
     // FB.getLoginStatus().  This function gets the state of the
     // person visiting this page and can return one of three states to
