@@ -72,6 +72,6 @@
     console.log('Welcome!  Fetching your information.... ');
     FB.api('/me', {fields: 'name, email'}, function(response) {
       document.getElementById('status').innerHTML =
-        'Thanks for logging in FACEBOOK as, ' + response.name + '\n'+ response.email'!';
+        'Thanks for logging in FACEBOOK as, ' + response.name + '\n'+ response.email+ '!';
     });
   }
