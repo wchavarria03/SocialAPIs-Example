@@ -1,0 +1,20 @@
+body {
+	background-color: rgb(112,183,186);
+
+}
+
+#mainContent {
+	text-align: center;
+    width: 400px;
+    border: solid 1px;
+    background-color: white;
+    box-shadow: 3px 3px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+    padding: 2%
+}
+
+
+    
